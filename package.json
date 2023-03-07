@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "mock": "json-server --watch db.json --port 3000"
   },
   "author": "",
   "license": "ISC",
