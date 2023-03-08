@@ -2,7 +2,7 @@
   "profile": {
     "name": "Elden Lord",
     "at": "@EldenRing",
-    "img_src": "./src/images/profile/profile_1.png"
+    "img_src": "./assets/images/profile/profile_1.png"
   },
   "highline": {
     "description": [
