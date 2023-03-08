@@ -1,0 +1,10 @@
+/* --- Main --- */
+
+main {
+  position: relative;
+  top: 5.4rem;
+  display: grid;
+  grid-template-columns: 30vw auto;
+  column-gap: 2rem;
+  padding: 0 4rem;
+}
