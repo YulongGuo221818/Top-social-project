@@ -13,3 +13,7 @@ export const fetchLogo = () => {
 export const fetchProfile = async () => {
   return axiosInstance.get('/profile');
 };
+
+export const fetchPosts = async () => {
+  return axiosInstance.get('/posts');
+};
