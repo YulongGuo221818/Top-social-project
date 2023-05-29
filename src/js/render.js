@@ -12,6 +12,7 @@ export const renderLogo = async () => {
 
 export const renderProfile = async () => {
   const profile = await fetchProfile();
+  console.log(profile);
   getProfilePhotoEle().src = profile.data.img_src;
 
   const { name, email, photo } = getSidebarProfileEle();
